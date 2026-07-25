@@ -8,6 +8,7 @@ A hands-on implementation of Retrieval-Augmented Generation (RAG) using vector d
 - Vector database storage
 - Semantic similarity search
 - BM25 keyword search
+- Hybrid retrieval (BM25 + semantic search)
 - Document chunking
 - Context retrieval for LLMs
 - Claude API integration
@@ -18,12 +19,18 @@ A hands-on implementation of Retrieval-Augmented Generation (RAG) using vector d
 |----------|-------------|
 | `003_vector_index.ipynb` | Implements semantic search using embeddings and a custom vector index. |
 | `004_bm25.ipynb` | Implements BM25 keyword search for document retrieval. |
+| `005_hybrid.ipynb` | Combines BM25 and semantic search into a hybrid retrieval pipeline. |
+
+## Learning Path
+
+1. Vector-based semantic search
+2. BM25 keyword retrieval
+3. Hybrid retrieval (BM25 + semantic search)
 
 ## Technologies
 
 - Python
 - Anthropic Claude API
-- ChromaDB
 - NumPy
 - Pandas
 
