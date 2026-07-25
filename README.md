@@ -7,9 +7,17 @@ A hands-on implementation of Retrieval-Augmented Generation (RAG) using vector d
 - Embedding generation
 - Vector database storage
 - Semantic similarity search
+- BM25 keyword search
 - Document chunking
 - Context retrieval for LLMs
 - Claude API integration
+
+## Repository Contents
+
+| Notebook | Description |
+|----------|-------------|
+| `003_vector_index.ipynb` | Implements semantic search using embeddings and a custom vector index. |
+| `004_bm25.ipynb` | Implements BM25 keyword search for document retrieval. |
 
 ## Technologies
 
@@ -21,7 +29,7 @@ A hands-on implementation of Retrieval-Augmented Generation (RAG) using vector d
 
 ## Project Goal
 
-This project explores the core concepts behind Retrieval-Augmented Generation (RAG), including embedding generation, vector storage, semantic retrieval, and context augmentation for large language models.
+This project explores the core concepts behind Retrieval-Augmented Generation (RAG), including embedding generation, vector storage, semantic retrieval, keyword retrieval, and context augmentation for large language models.
 
 ## Disclaimer
 
