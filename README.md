@@ -44,4 +44,4 @@ This repository was created as a personal learning project while studying Retrie
 
 ## Acknowledgments
 
-Inspired by Anthropic's educational materials on Retrieval-Augmented Generation (RAG).
+This repository is based on and adapted from Anthropic's educational materials on Retrieval-Augmented Generation (RAG). It is shared for personal learning and experimentation.
