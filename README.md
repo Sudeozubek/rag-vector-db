@@ -1,31 +1,35 @@
 # RAG Vector Database
 
-A hands-on implementation of Retrieval-Augmented Generation (RAG) using vector databases, embeddings, semantic search, and Anthropic Claude.
+A hands-on implementation of Retrieval-Augmented Generation (RAG) concepts, including document chunking, embeddings, vector search, BM25 retrieval, and hybrid search.
 
 ## Features
 
+- Document chunking
 - Embedding generation
 - Vector database storage
 - Semantic similarity search
 - BM25 keyword search
 - Hybrid retrieval (BM25 + semantic search)
-- Document chunking
 - Context retrieval for LLMs
 - Claude API integration
 
 ## Repository Contents
 
-| Notebook | Description |
-|----------|-------------|
+| File | Description |
+|------|-------------|
+| `001_chunking.ipynb` | Demonstrates document chunking strategies for RAG pipelines. |
+| `002_embeddings.ipynb` | Generates vector embeddings for document chunks. |
 | `003_vector_index.ipynb` | Implements semantic search using embeddings and a custom vector index. |
 | `004_bm25.ipynb` | Implements BM25 keyword search for document retrieval. |
 | `005_hybrid.ipynb` | Combines BM25 and semantic search into a hybrid retrieval pipeline. |
 
 ## Learning Path
 
-1. Vector-based semantic search
-2. BM25 keyword retrieval
-3. Hybrid retrieval (BM25 + semantic search)
+1. Document chunking
+2. Embedding generation
+3. Vector-based semantic search
+4. BM25 keyword retrieval
+5. Hybrid retrieval (BM25 + semantic search)
 
 ## Technologies
 
@@ -36,11 +40,11 @@ A hands-on implementation of Retrieval-Augmented Generation (RAG) using vector d
 
 ## Project Goal
 
-This project explores the core concepts behind Retrieval-Augmented Generation (RAG), including embedding generation, vector storage, semantic retrieval, keyword retrieval, and context augmentation for large language models.
+This repository explores the fundamental building blocks of Retrieval-Augmented Generation (RAG) through practical notebook implementations, covering document preprocessing, embedding generation, semantic retrieval, keyword retrieval, and hybrid search techniques.
 
 ## Disclaimer
 
-This repository was created as a personal learning project while studying Retrieval-Augmented Generation (RAG) concepts and experimenting with Anthropic Claude and vector databases.
+This repository is shared for educational purposes and personal learning.
 
 ## Acknowledgments
 
