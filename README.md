@@ -1,0 +1,32 @@
+# RAG Vector Database
+
+A hands-on implementation of Retrieval-Augmented Generation (RAG) using vector databases, embeddings, semantic search, and Anthropic Claude.
+
+## Features
+
+- Embedding generation
+- Vector database storage
+- Semantic similarity search
+- Document chunking
+- Context retrieval for LLMs
+- Claude API integration
+
+## Technologies
+
+- Python
+- Anthropic Claude API
+- ChromaDB
+- NumPy
+- Pandas
+
+## Project Goal
+
+This project explores the core concepts behind Retrieval-Augmented Generation (RAG), including embedding generation, vector storage, semantic retrieval, and context augmentation for large language models.
+
+## Disclaimer
+
+This repository was created as a personal learning project while studying Retrieval-Augmented Generation (RAG) concepts and experimenting with Anthropic Claude and vector databases.
+
+## Acknowledgments
+
+Inspired by Anthropic's educational materials on Retrieval-Augmented Generation (RAG).
